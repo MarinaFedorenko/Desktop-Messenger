@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="310.0" style="-fx-background-color: #454545; -fx-border-color: orange; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Label alignment="CENTER" layoutX="92.0" layoutY="22.0" prefHeight="36.0" prefWidth="127.0" style="-fx-background-color: #A0522D; -fx-background-radius: 6;" text=" Log In" textFill="WHITE">
+         <font>
+            <Font name="Lucida Fax Demibold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="39.0" layoutY="60.0" prefHeight="23.0" prefWidth="103.0" text="New User?" textFill="#d3d1d1">
+         <font>
+            <Font name="Lucida Fax Regular" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCreate" layoutX="143.0" layoutY="59.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: #454545;" text="Create an account" textFill="#e5eeee" underline="true">
+         <font>
+            <Font name="Lucida Fax Regular" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="30.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/icons8-карта-сотрудник-50.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="userName_field" layoutX="91.0" layoutY="124.0" prefHeight="25.0" prefWidth="168.0" promptText="Username" style="-fx-border-width: 3;" />
+      <ImageView fitHeight="36.0" fitWidth="37.0" layoutX="40.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/icons8-разблокировка-2-52.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="password_field" layoutX="91.0" layoutY="178.0" prefHeight="25.0" prefWidth="168.0" promptText="Password" style="-fx-border-width: 5;" />
+      <Separator layoutX="51.0" layoutY="91.0" prefHeight="0.0" prefWidth="233.0" style="-fx-background-color: #FFFFFF;" />
+      <Button fx:id="btnLogin" layoutX="80.0" layoutY="234.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="160.0" style="-fx-background-color: orange; -fx-background-radius: 3;" text="Log in" textFill="WHITE">
+         <font>
+            <Font name="Lucida Fax Demibold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" layoutX="131.0" layoutY="275.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="52.0" style="-fx-background-color: #454545;" text="Exit" textFill="#d3d1d1" underline="true" />
+   </children>
+</Pane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="344.0" prefWidth="526.0" style="-fx-background-color: #454545; -fx-border-color: orange; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerCreator">
+   <children>
+      <Label alignment="CENTER" layoutX="155.0" layoutY="36.0" prefHeight="23.0" prefWidth="203.0" text="Create your account" textFill="#d3d1d1">
+         <font>
+            <Font name="Lucida Fax Demibold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="280.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/icons8-карта-сотрудник-50.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="userName_field" layoutX="340.0" layoutY="107.0" prefHeight="25.0" prefWidth="168.0" promptText="Username" style="-fx-border-width: 3;" />
+      <ImageView fitHeight="36.0" fitWidth="37.0" layoutX="290.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/icons8-разблокировка-2-52.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="password_field" layoutX="340.0" layoutY="166.0" prefHeight="25.0" prefWidth="168.0" promptText="Password" style="-fx-border-width: 3;" />
+      <Separator layoutX="41.0" layoutY="69.0" prefHeight="0.0" prefWidth="383.0" style="-fx-background-color: #FFFFFF;" />
+      <Button fx:id="btnDone" layoutX="337.0" layoutY="241.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="160.0" style="-fx-background-color: green; -fx-background-radius: 3;" text="Done!" textFill="WHITE">
+         <font>
+            <Font name="Lucida Fax Demibold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="264.0" layoutY="11.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="36.0" style="-fx-background-color: #454545;" />
+      <Button fx:id="btnBack" layoutX="391.0" layoutY="288.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="52.0" style="-fx-background-color: #454545;" text="Back" textFill="#d3d1d1" underline="true" />
+      <TextField fx:id="firstName_field" layoutX="32.0" layoutY="97.0" prefHeight="25.0" prefWidth="168.0" promptText="First name" style="-fx-border-width: 3;" />
+      <TextField fx:id="lastName_field" layoutX="57.0" layoutY="142.0" prefHeight="25.0" prefWidth="168.0" promptText="Last name" style="-fx-border-width: 3;" />
+      <ImageView fitHeight="36.0" fitWidth="52.0" layoutX="116.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/icons8_bee_50px_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="52.0" layoutX="358.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/icons8_bee_50px_2.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="274.0" layoutY="89.0" orientation="VERTICAL" prefHeight="160.0" prefWidth="0.0" />
+      <TextField fx:id="location_field" layoutX="71.0" layoutY="191.0" prefHeight="25.0" prefWidth="168.0" promptText="Country" style="-fx-border-width: 3;" />
+      <CheckBox fx:id="checkBoxMale" layoutX="71.0" layoutY="251.0" mnemonicParsing="false" style="-fx-border-width: 3;" text="Male" textFill="WHITE" />
+      <CheckBox fx:id="checkBoxFemale" layoutX="180.0" layoutY="251.0" mnemonicParsing="false" selected="true" style="-fx-border-width: 3;" text="Female" textFill="WHITE" />
+   </children>
+</AnchorPane>
