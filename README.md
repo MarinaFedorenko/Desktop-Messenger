@@ -1,3 +1,3 @@
 # Desktop-Messenger
-Десктопное приложение на JavaFx, которое я писала как финальный проект в университет по курсу КПП (кроссплатформенное программирование). 
-Завершено 24.05.2020
+A desktop application in JavaFX with a unique design developed as the final project for the university course 'Cross-Platform Programming.' 
+Completed on May 24, 2020.
